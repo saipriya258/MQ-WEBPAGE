@@ -88,13 +88,13 @@ nav a:hover {
     background-color: white;
     border-radius: 15%;
     padding: 20px;
-    height: 40vh;
-    width: 40vw;
+    height: 50vh;
+    width: 50vw;
     text-align: center;
     align-items: center;
     position: absolute;
     right: 20px;
-    bottom: 40px;
+    bottom:180px;
     font-size: 1.5rem;
     font-weight: 700;
     display: block;
@@ -119,17 +119,13 @@ nav a:hover {
 
 }
 
-@media screen and (min-width:300px) and (max-width:500px) {
+@media screen and (width <=450px) {
     .container1 {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         height: auto;
         width: 50%;
-        /* height:100vh; */
-        /* justify-content: space-around;
-        align-items: center; */
-
     }
 
     .container {
@@ -137,31 +133,6 @@ nav a:hover {
     }
 }
 
-@media screen and (width >500px) {
-    .container1 {
-        height: auto;
-        /* width:100%; */
-        align-items: center;
-        align-content: center;
-    }
-
-    .div1 {
-        height: auto;
-        width: 90%;
-        align-items: center;
-        align-content: center;
-    }
-}
-
-
-/* @media screen and (width <500px) {
-    .container{
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs7HFN_KAmxt57bNOtPgO5P0qp-4y7Av0nkQ&s); 
-        height: 100%;
-        width:100%;
-    }
-    
-} */
 .div2:hover {
     color: red;
 }
