@@ -120,7 +120,7 @@ nav a:hover {
 
 @media screen and (width <= 500px) {
     .container1 {
-        top: 80%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
 /*         height: auto; */
