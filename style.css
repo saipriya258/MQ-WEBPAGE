@@ -93,7 +93,7 @@ nav a:hover {
     align-items: center;
     position: absolute;
     right: 20px;
-    top:100px;
+    bottom:10px;
     font-size: 1.5rem;
     font-weight: 700;
     display: block;
