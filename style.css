@@ -85,7 +85,7 @@ nav a:hover {
 .container1 {
 
     background-color: white;
-    border-radius: 15%;
+    border-radius:20px;
     padding: 25px;
     height: 60vh;
     width: 60vw;
